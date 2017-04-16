@@ -7,6 +7,6 @@ Examples of AWS api integrations with Stratoscale Symphony
 3. Please mark configuration variables with '<>'
 
 ## Example:
-access_key = "<key>"
-secret_key = "<secret>"
-endpoint_url = "http://<clustervip>/api/v2/ec2"
+access_key = "\<key\>"
+secret_key = "\<secret\>"
+endpoint_url = "http:\/\/\<clustervip\>\/api\/v2\/ec2"
