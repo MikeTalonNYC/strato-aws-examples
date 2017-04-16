@@ -1,0 +1,27 @@
+version: 0.1
+log:
+  level: debug
+  formatter: text
+  fields:
+    service: registry
+    environment: staging
+storage:
+  s3:
+    accesskey: AKIAJONMGIDAMMYJ3ZKA
+    secretkey: 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
+    region: us-west-2
+    bucket: kushmaro
+    encrypt: false
+    secure: false
+    v4auth: true
+  cache:
+    blobdescriptor: inmemory
+http:
+  addr: :5000
+  headers:
+    X-Content-Type-Options: [nosniff]
+health:
+  storagedriver:
+    enabled: true
+    interval: 10s
+    threshold: 3
