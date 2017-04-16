@@ -7,11 +7,11 @@ log:
     environment: staging
 storage:
   s3:
-    accesskey: 3f50f82f6c504dc6b888b3459a6eda41
-    secretkey: 71cf60889a0c4b12a13498ee0b667c8a
+    accesskey: <access key>
+    secretkey: <secret key>
     region: stratoscale
-    regionendpoint: http://10.16.145.235
-    bucket: kushmaro
+    regionendpoint: http://<cluster vip>
+    bucket: <bucket name>
     encrypt: false
     secure: false
     v4auth: false

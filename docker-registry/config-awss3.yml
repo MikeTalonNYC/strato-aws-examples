@@ -7,10 +7,10 @@ log:
     environment: staging
 storage:
   s3:
-    accesskey: AKIAJONMGIDAMMYJ3ZKA
-    secretkey: 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
-    region: us-west-2
-    bucket: kushmaro
+    accesskey: <access-key>
+    secretkey: <secret-key>
+    region: <region>
+    bucket: <bucket-name>
     encrypt: false
     secure: false
     v4auth: true
