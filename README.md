@@ -1,12 +1,12 @@
 # Symphony AWS API Integration Examples
-Examples of AWS api integrations with Stratoscale Symphony
+Examples of AWS API integrations with Stratoscale Symphony
 
-## Basic Rules: 
+## Basic Rules:
 1. Submit working examples only
-2. If your example doesn't work yet or WIP, please mention it in a simple Readme.md
-3. Please mark configuration variables with '<>'
+2. If your example doesn't work yet or WIP, please mention it in a simple `README.md`
+3. Please mark configuration variables with `<>`
 
-## Example:
-access_key = "\<key\>"
-secret_key = "\<secret\>"
-endpoint_url = "http:\/\/\<clustervip\>\/api\/v2\/ec2"
+## Examples:
+* `access_key = "<key>"`
+* `secret_key = "<secret>"`
+* `endpoint_url = "http://<clustervip>/api/v2/ec2/"`
